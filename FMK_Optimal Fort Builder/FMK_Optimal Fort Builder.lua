@@ -1,6 +1,6 @@
--- Title: Optimal Construction Hotspot Builder for Fort Forinthry
--- Author: FMK
--- Description: Follows and clicks the optimal construction hotspot
+-- Title: FMK_Optimal Fort Builder
+-- Author: FourthMK
+-- Description: Optimal Construction Hotspot Builder for Fort Forinthry. Follows and clicks the optimal construction hotspot
 -- Version: 3.8
 -- Category: Construction
 
