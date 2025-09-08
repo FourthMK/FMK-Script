@@ -1,19 +1,10 @@
-﻿#💎 FMK_Gem Cutter
+﻿## 💎 FMK_Gem Cutter
 
-A Lua script for RuneScape 3 that automates the process of cutting uncut gems into their cut counterparts.
+A simple to cut uncut gem
 
 ## Description
 
 Cut gem. Load last preset from bank.
-
-## Features
-
-- **Automated Gem Cutting**: Supports cutting all types of uncut gems.
-- **User Interface**: Simple UI with start/pause button and gem selection dropdown.
-- **Bank Integration**: Automatically loads the last preset from the bank when running low on uncut gems.
-- **Metrics Tracking**: Displays runtime, cuts per hour, inventory counts, bank stock, and estimated runs until empty.
-- **Anti-Idle**: Includes anti-idle mechanisms to prevent account inactivity.
-- **Random Events Handling**: Automatically handles random events during operation.
 
 ## Supported Gems
 
@@ -37,7 +28,7 @@ Cut gem. Load last preset from bank.
 1. Start the script near bank
 2. Select the desired gem type from the dropdown menu.
 3. Click the "Start" button to begin cutting.
-4. The script will automatically restock from the bank when necessary.
+4. The script will load last preset from the bank.
 5. Use the "Pause" button to stop the process.
 
 ## Metrics
@@ -49,5 +40,3 @@ The script provides real-time metrics including:
 - Uncut and cut gem counts in inventory
 - Processing status
 - Total gems cut and cuts per hour
-- Bank stock of uncut gems
-- Estimated runs until bank stock is depleted
