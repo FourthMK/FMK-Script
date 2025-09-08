@@ -1,6 +1,6 @@
-# Universal Construction Hotspot Follower
+# ⚒️ Universal Construction Hotspot Follower
 
- ⚒️ **Automatically finds, follows, and interacts with optimal construction hotspots in RuneScape 3, with XP detection and retry mechanisms.**
+  **Automatically finds, follows, and interacts with optimal construction hotspots in RuneScape 3, with XP detection and retry mechanisms.**
 
 ## Features
 
