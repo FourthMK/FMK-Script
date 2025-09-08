@@ -1,6 +1,6 @@
 # Universal Construction Hotspot Follower
 
-🏗️ **Automatically finds, follows, and interacts with optimal construction hotspots in RuneScape 3, with XP detection and retry mechanisms.**
+ `⚒️ **Automatically finds, follows, and interacts with optimal construction hotspots in RuneScape 3, with XP detection and retry mechanisms.**
 
 ## Features
 
@@ -14,11 +14,12 @@
 ## How to Use
 
 1. **Prerequisites**:
-   - RuneScape 3 with the necessary API (e.g., for RS3 scripting environments like those using Lua).
+   - api.lua
    - Place the script in your scripts folder.
 
 2. **Setup**:
-   - Manually select or create your building in-game.
+   - Manually select or create your building of choice.
+   - be near the hotspots
    - Start the script.
 
 3. **Operation**:
@@ -29,7 +30,7 @@
 
 4. **Stopping**:
    - The script stops automatically based on XP detection or lack of hotspots.
-   - You can manually stop via your scripting environment.
+   - You can manually stop via injector.
 
 ## Configuration
 
