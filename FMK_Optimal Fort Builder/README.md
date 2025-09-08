@@ -12,7 +12,7 @@
 
 ## How to Use
 
-1. **Prerequisites**:
+1. **Prerequisites/libraries**:
    - api.lua in the script folder
 
 2. **Setup**:
