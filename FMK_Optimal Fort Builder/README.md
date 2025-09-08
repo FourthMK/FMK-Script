@@ -1,4 +1,4 @@
-# ⚒️ Universal Construction Hotspot Follower
+# ⚒️ Optimal Construction Hotspot Builder 
 
   **Automatically finds, follows, and interacts with optimal construction hotspots in Fort Forinthry.**
 
