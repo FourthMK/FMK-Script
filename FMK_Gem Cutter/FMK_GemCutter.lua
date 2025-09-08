@@ -29,6 +29,7 @@ local GEMS = {
 
 -- =========================== State ===========================--
 local startTime        = os.time()
+local last_cut_time    = os.time()
 local run              = false
 local selectedIndex    = 4   -- default Sapphire (1-based)
 local lastRestockTry   = 0
@@ -206,9 +207,15 @@ while API.Read_LoopyLoop() do
       local curCut = Inventory:GetItemAmount(gem.cut) or 0
       if curCut > lastCutInvCount then
         sessionCuts = sessionCuts + (curCut - lastCutInvCount)
+        last_cut_time = os.time()
       end
       lastCutInvCount = curCut
     end
+  end
+
+  if run and os.time() - last_cut_time > 10 then
+    API.logInfo("No crafting XP for 10 seconds, stopping script")
+    break
   end
 
   if run then
@@ -227,7 +234,7 @@ while API.Read_LoopyLoop() do
       else
         -- Non-blocking while processing so metrics/UI keep updating
         UTILS.randomSleep(150)
-      end
+      end 
     end
   end
 
